@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>FITO Fitness &amp; Gym | Gym in Malibagh &amp; Khilgaon, Dhaka</title>
+  <meta name="description" content="FITO Fitness & Gym — an established gym in Malibagh & Khilgaon (Khilgaon Chowdhury Para, Dhaka) offering strength training, cardio, weight training, fat-burning workouts, yoga, zumba, aerobics and ladies fitness sessions. Call 01720-505050.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FITO Fitness & Gym">
+  <meta property="og:title" content="FITO Fitness & Gym | Gym in Malibagh & Khilgaon, Dhaka">
+  <meta property="og:description" content="Strength. Cardio. Conditioning. Progress. FITO Fitness & Gym — established fitness environment in Khilgaon, Dhaka. 4.3★ rated on Google with 240+ reviews.">
+  <meta property="og:image" content="images/img-13.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="images/img-13.jpg" fetchpriority="high">
+
+  <!-- Prevent theme flash: apply saved / system theme before first paint -->
+  <script>
+    document.documentElement.classList.add('js');
+    (function () {
+      try {
+        var saved = localStorage.getItem('fito-theme');
+        var theme = saved;
+        if (!theme) {
+          theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        if (theme === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Gym",
+    "name": "FITO Fitness & Gym",
+    "description": "Established fitness gym in Malibagh & Khilgaon, Dhaka. Strength training, cardio, weight training, fat burning, yoga, zumba, aerobics and ladies fitness sessions.",
+    "telephone": "+8801720505050",
+    "priceRange": "Contact for current plans",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "406/B Malibagh Chowdhury Para Road, Khilgaon Chowdhury Para (3rd Floor)",
+      "addressLocality": "Dhaka",
+      "addressCountry": "BD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.3",
+      "reviewCount": "240"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday"],
+        "opens": "07:00",
+        "closes": "23:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "16:00",
+        "closes": "21:00"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================= SVG ICON SPRITE ================= -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.6l2.85 5.78 6.38.93-4.62 4.5 1.09 6.35L12 17.43l-5.7 3-1.1-6.35L.6 9.3l6.38-.93L12 2.6z"/></symbol>
+    <symbol id="i-dumbbell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7.5v9M18 7.5v9M2.5 9.8v4.4M21.5 9.8v4.4M6 12h12"/></symbol>
+    <symbol id="i-barbell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12h15"/><circle cx="7.5" cy="12" r="2"/><circle cx="16.5" cy="12" r="2"/><path d="M2.5 9v6M21.5 9v6"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12h4l2.5-6 4.5 11 2.5-6h5"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c.3 2.6 1.7 4.2 3.4 5.6A7.2 7.2 0 1 1 6.4 8.2C8 9.6 9.3 10.2 10 12 9.2 8.5 11 5 12 3z"/></symbol>
+    <symbol id="i-lotus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20c-.6-3.6 1-6.4 3-8.2C13.1 13.6 12.3 16 12 20z"/><path d="M12 20c.6-3.6-1-6.4-3-8.2C10.9 13.6 11.7 16 12 20z"/><path d="M12 20c-2.6-2.6-3-5.4-2.4-8.1 1.7.8 2.6 3.4 2.4 8.1z"/><path d="M12 20c2.6-2.6 3-5.4 2.4-8.1-1.7.8-2.6 3.4-2.4 8.1z"/><path d="M12 22.5V20"/></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18.5V6l10-2v12.5"/><circle cx="6.5" cy="18.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5s-7-6.1-7-11.3a7 7 0 0 1 14 0c0 5.2-7 11.3-7 11.3z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3.5h3.6l1.6 4.4-2 1.6a12.5 12.5 0 0 0 6.3 6.3l1.6-2 4.4 1.6v3.6a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-ac" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5h9.5a2.8 2.8 0 1 0-2.8-2.8"/><path d="M3 12h13.5a2.8 2.8 0 1 1-2.8 2.8"/><path d="M3 15.5h6.5a2.2 2.2 0 1 1-2.2 2.2"/></symbol>
+    <symbol id="i-locker" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4.5h14a1 1 0 0 1 1 1V20H4V5.5a1 1 0 0 1 1-1z"/><path d="M9 8.5v4.5M15 8.5v4.5"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 15.5h13L21 10l-1.8-4.5H4.8L3 10z"/><path d="M3 11h18"/><circle cx="7.5" cy="15.5" r="1.6"/><circle cx="16.5" cy="15.5" r="1.6"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.4 6 10.2A6 6 0 0 1 6 13.2C6 9.4 12 3 12 3z"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5a13 13 0 0 1 18 0"/><path d="M6 13a8.5 8.5 0 0 1 12 0"/><path d="M9.2 16.3a4.5 4.5 0 0 1 5.6 0"/><circle cx="12" cy="19.5" r="1"/></symbol>
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 3v2M12 19v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M3 12h2M19 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 13.5A8.5 8.5 0 1 1 10.5 3.5a7 7 0 0 0 10 10z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3.5 6.5h17M3.5 12h17M3.5 17.5h17"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5l5 5L19.5 7"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav" id="nav">
+    <div class="nav-inner container">
+      <a class="brand" href="#home" aria-label="FITO Fitness & Gym — home">
+        <span class="brand-mark" aria-hidden="true">F</span>
+        <span class="brand-text">
+          <span class="brand-name">FITO</span>
+          <span class="brand-sub">FITNESS &amp; GYM</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#programs" class="nav-link">Programs</a>
+        <a href="#facilities" class="nav-link">Facilities</a>
+        <a href="#trainers" class="nav-link">Trainers</a>
+        <a href="#membership" class="nav-link">Membership</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme">
+          <svg class="icon ic-sun"><use href="#i-sun"/></svg>
+          <svg class="icon ic-moon"><use href="#i-moon"/></svg>
+        </button>
+        <a class="btn btn-small btn-accent nav-join" href="tel:+8801720505050">Join Now</a>
+        <button class="nav-burger" id="navBurger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg class="icon ic-menu"><use href="#i-menu"/></svg>
+          <svg class="icon ic-close"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav class="mobile-links" aria-label="Mobile">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#programs" class="mobile-link">Programs</a>
+        <a href="#facilities" class="mobile-link">Facilities</a>
+        <a href="#trainers" class="mobile-link">Trainers</a>
+        <a href="#membership" class="mobile-link">Membership</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+      </nav>
+      <div class="mobile-footer">
+        <a class="btn btn-accent" href="tel:+8801720505050">Join Now</a>
+        <span class="mobile-tag">FITO · KHILGAON · DHAKA</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero-media">
+        <img src="images/img-13.jpg" alt="Athlete performing a heavy deadlift in a dark, dramatic gym" fetchpriority="high" decoding="async" width="1200" height="1500">
+      </div>
+      <div class="hero-content container">
+        <p class="eyebrow hero-eyebrow reveal">FITO Fitness &amp; Gym</p>
+        <h1 class="hero-title reveal" style="--d:.08s">
+          Train Hard.<br>
+          <span class="hero-title-alt">Live Strong.</span>
+        </h1>
+        <p class="hero-sub reveal" style="--d:.16s">
+          A complete fitness environment built for strength, cardio, conditioning
+          and real, sustainable progress — in the heart of Khilgaon, Dhaka.
+        </p>
+        <div class="hero-cta reveal" style="--d:.24s">
+          <a class="btn btn-accent btn-lg" href="#membership">Join FITO <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+          <a class="btn btn-ghost btn-lg" href="#facilities">Explore The Gym</a>
+        </div>
+        <p class="hero-location reveal" style="--d:.32s">
+          <svg class="icon"><use href="#i-pin"/></svg>
+          Khilgaon &middot; Dhaka
+        </p>
+      </div>
+
+      <a class="scroll-hint" href="#trust" aria-label="Scroll to explore">
+        <span class="scroll-mouse" aria-hidden="true"></span>
+        <span class="scroll-label">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ================= TRUST STRIP ================= -->
+    <section class="trust" id="trust" aria-label="FITO in numbers">
+      <div class="container">
+        <ul class="trust-list">
+          <li class="trust-item reveal">
+            <span class="trust-value"><span class="score">4.3</span><span class="trust-sym">★</span></span>
+            <span class="trust-label">Google Rating</span>
+          </li>
+          <li class="trust-item reveal" style="--d:.08s">
+            <span class="trust-value"><span class="count" data-count="240">240</span><span class="trust-sym">+</span></span>
+            <span class="trust-label">Reviews</span>
+          </li>
+          <li class="trust-item reveal" style="--d:.16s">
+            <span class="trust-value"><span class="count" data-count="11">11</span><span class="trust-sym">+</span></span>
+            <span class="trust-label">Years Serving DHAKA</span>
+          </li>
+          <li class="trust-item reveal" style="--d:.24s">
+            <span class="trust-value"><span class="count" data-count="7">7</span></span>
+            <span class="trust-label">Days Open Weekly</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Strength</span><i></i><span>Discipline</span><i></i><span>Progress</span><i></i>
+        <span>Strength</span><i></i><span>Discipline</span><i></i><span>Progress</span><i></i>
+        <span>Strength</span><i></i><span>Discipline</span><i></i><span>Progress</span><i></i>
+        <span>Strength</span><i></i><span>Discipline</span><i></i><span>Progress</span><i></i>
+      </div>
+    </div>
+
+    <!-- ================= 11 YEARS BRAND MOMENT ================= -->
+    <section class="years" id="legacy" aria-label="Eleven years of FITO">
+      <div class="container years-grid">
+        <div class="years-left reveal">
+          <p class="eyebrow">The Fito Standard</p>
+          <div class="years-num reveal" aria-hidden="true"><span class="years-num-inner">11</span></div>
+        </div>
+        <div class="years-right reveal" style="--d:.12s">
+          <h2 class="display-xl">
+            Years of Strength.<br>
+            <span class="stroke-text">Years of Trust.</span>
+          </h2>
+          <p class="lede">
+            Built through consistency, discipline and a commitment to helping people
+            become stronger — session after session, year after year.
+          </p>
+          <p class="years-meta">Established in Malibagh &amp; Khilgaon &middot; Dhaka</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy">
+            <p class="eyebrow reveal">About Fito</p>
+            <h2 class="display-lg reveal" style="--d:.06s">More than<br>a workout.</h2>
+            <p class="body reveal" style="--d:.12s">
+              FITO is a complete fitness environment. It brings strength, cardio,
+              conditioning and discipline together under one roof — built for people
+              who want real results and a routine they can actually sustain.
+            </p>
+            <p class="body reveal" style="--d:.16s">
+              From the iron section to cardio, from guided training to recovery-focused
+              sessions, every corner of FITO is designed around one idea: helping you
+              become stronger than you were yesterday.
+            </p>
+            <ul class="about-tags reveal" style="--d:.2s">
+              <li>Strength</li>
+              <li>Cardio</li>
+              <li>Conditioning</li>
+              <li>Transformation</li>
+              <li>Discipline</li>
+              <li>Progress</li>
+            </ul>
+            <a class="btn btn-outline reveal" style="--d:.24s" href="#programs">Explore Programs <svg class="icon"><use href="#i-arrow-right"/></svg></a>
+          </div>
+
+          <div class="about-visual">
+            <figure class="about-img-lg reveal">
+              <div class="media"><img src="images/img-1.jpg" alt="Dark, moody training floor of a premium gym" loading="lazy" decoding="async"></div>
+            </figure>
+            <figure class="about-img-sm reveal" style="--d:.12s">
+              <div class="media"><img src="images/img-6.jpg" alt="Dumbbells resting on the gym floor" loading="lazy" decoding="async"></div>
+            </figure>
+            <div class="about-badge reveal" style="--d:.2s">
+              <span class="about-badge-num">4.3<i>★</i></span>
+              <span class="about-badge-txt">Rated on<br>Google · 240+ reviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROGRAMS ================= -->
+    <section class="programs section" id="programs">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">Programs</p>
+            <h2 class="display-lg reveal" style="--d:.06s">Train your way.</h2>
+          </div>
+          <p class="section-note reveal" style="--d:.12s">
+            Every goal is different. FITO builds training around yours — from strength
+            to stamina, from fat loss to flexibility.
+          </p>
+        </div>
+
+        <div class="programs-grid">
+          <article class="program-card reveal">
+            <div class="program-top">
+              <span class="program-icon"><svg class="icon"><use href="#i-dumbbell"/></svg></span>
+              <span class="program-num">01</span>
+            </div>
+            <h3 class="program-name">Strength</h3>
+            <p class="program-desc">Build raw strength and improve overall physical performance with structured iron work.</p>
+          </article>
+
+          <article class="program-card reveal" style="--d:.06s">
+            <div class="program-top">
+              <span class="program-icon"><svg class="icon"><use href="#i-pulse"/></svg></span>
+              <span class="program-num">02</span>
+            </div>
+            <h3 class="program-name">Cardio</h3>
+            <p class="program-desc">Improve endurance and cardiovascular fitness in the dedicated cardio section.</p>
+          </article>
+
+          <article class="program-card reveal" style="--d:.12s">
+            <div class="program-top">
+              <span class="program-icon"><svg class="icon"><use href="#i-barbell"/></svg></span>
+              <span class="program-num">03</span>
+            </div>
+            <h3 class="program-name">Weight Training</h3>
+            <p class="program-desc">Structured resistance training for strength and physique goals, guided by coaches.</p>
+          </article>
+
+          <article class="program-card reveal" style="--d:.18s">
+            <div class="program-top">
+              <span class="program-icon"><svg class="icon"><use href="#i-flame"/></svg></span>
+              <span class="program-num">04</span>
+            </div>
+            <h3 class="program-name">Fat Burning</h3>
+            <p class="program-desc">Training built around active calorie expenditure and conditioning work.</p>
+          </article>
+
+          <article class="program-card reveal" style="--d:.24s">
+            <div class="program-top">
+              <span class="program-icon"><svg class="icon"><use href="#i-lotus"/></svg></span>
+              <span class="program-num">05</span>
+            </div>
+            <h3 class="program-name">Yoga &amp; Flexibility</h3>
+            <p class="program-desc">Mobility, balance and controlled movement to strengthen every part of your routine.</p>
+          </article>
+
+          <article class="program-card reveal" style="--d:.3s">
+            <div class="program-top">
+              <span class="program-icon"><svg class="icon"><use href="#i-music"/></svg></span>
+              <span class="program-num">06</span>
+            </div>
+            <h3 class="program-name">Zumba &amp; Aerobics</h3>
+            <p class="program-desc">High-energy group fitness that turns conditioning into something you look forward to.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LADIES FITNESS ================= -->
+    <section class="ladies section" id="ladies">
+      <div class="container ladies-grid">
+        <div class="ladies-visual reveal">
+          <div class="media media-portrait">
+            <img src="images/img-18.jpg" alt="Quiet, focused strength training space at the gym" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <div class="ladies-copy">
+          <p class="eyebrow reveal">Ladies Fitness</p>
+          <h2 class="display-lg reveal" style="--d:.06s">Your strength.<br>Your space.</h2>
+          <p class="body reveal" style="--d:.12s">
+            FITO runs ladies-focused fitness sessions in a professional environment
+            with female trainers. Train, move and build confidence at your own pace.
+          </p>
+          <ul class="ladies-list reveal" style="--d:.18s">
+            <li><svg class="icon"><use href="#i-lotus"/></svg> Yoga</li>
+            <li><svg class="icon"><use href="#i-pulse"/></svg> Aerobics</li>
+            <li><svg class="icon"><use href="#i-music"/></svg> Zumba</li>
+            <li><svg class="icon"><use href="#i-barbell"/></svg> Weight Training</li>
+            <li><svg class="icon"><use href="#i-flame"/></svg> Fat Burning</li>
+          </ul>
+          <div class="ladies-cta reveal" style="--d:.24s">
+            <a class="btn btn-accent btn-lg" href="tel:+8801720505050">Ask About Ladies Sessions</a>
+            <span class="ladies-note">Timings &amp; schedules available on request.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FACILITIES ================= -->
+    <section class="facilities section" id="facilities">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">Facilities</p>
+            <h2 class="display-lg reveal" style="--d:.06s">Built for the long haul.</h2>
+          </div>
+          <p class="section-note reveal" style="--d:.12s">
+            A serious training environment — clean, air-conditioned and equipped for
+            the work you came to do.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item gallery-lg reveal">
+            <div class="media"><img src="images/img-9.jpg" alt="Spacious training floor with equipment arranged across the gym" loading="lazy" decoding="async"></div>
+            <figcaption class="gallery-cap"><span>Cardio &amp; Conditioning Floor</span></figcaption>
+          </figure>
+          <figure class="gallery-item reveal" style="--d:.08s">
+            <div class="media"><img src="images/img-6.jpg" alt="Free weights and dumbbells at the strength station" loading="lazy" decoding="async"></div>
+            <figcaption class="gallery-cap"><span>Iron &amp; Strength</span></figcaption>
+          </figure>
+          <figure class="gallery-item reveal" style="--d:.16s">
+            <div class="media"><img src="images/img-7.jpg" alt="Indoor cycling bikes lined up in the cardio class area" loading="lazy" decoding="async"></div>
+            <figcaption class="gallery-cap"><span>Indoor Cardio &amp; Spin</span></figcaption>
+          </figure>
+          <figure class="gallery-item gallery-wide reveal" style="--d:.24s">
+            <div class="media"><img src="images/img-1.jpg" alt="Wide view of a dark, air-conditioned premium gym space" loading="lazy" decoding="async"></div>
+            <figcaption class="gallery-cap"><span>Open, Air-conditioned Training Space</span></figcaption>
+          </figure>
+        </div>
+
+        <ul class="facility-chips reveal" style="--d:.1s">
+          <li><svg class="icon"><use href="#i-ac"/></svg> Air-conditioned</li>
+          <li><svg class="icon"><use href="#i-locker"/></svg> Locker Service</li>
+          <li><svg class="icon"><use href="#i-car"/></svg> Parking</li>
+          <li><svg class="icon"><use href="#i-drop"/></svg> Filtered Drinking Water</li>
+          <li><svg class="icon"><use href="#i-wifi"/></svg> Free Wi-Fi</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= TRAINERS ================= -->
+    <section class="trainers section" id="trainers">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">Trainers</p>
+            <h2 class="display-lg reveal" style="--d:.06s">Guided by people who train.</h2>
+          </div>
+          <p class="section-note reveal" style="--d:.12s">
+            FITO trains with both male and female instructors who coach, correct and
+            push you toward your goals.
+          </p>
+        </div>
+
+        <!-- EDIT: replace these cards with real FITO trainer profiles (name / photo / specialty) -->
+        <div class="trainers-grid">
+          <article class="trainer-card reveal">
+            <div class="media">
+              <img src="images/img-2.jpg" alt="Coach guiding a pull-up session on the training floor" loading="lazy" decoding="async">
+              <span class="trainer-badge">Photo pending</span>
+            </div>
+            <div class="trainer-info">
+              <h3 class="trainer-name">Trainer Name</h3>
+              <span class="trainer-role">Specialized Trainer &middot; Personal Coaching</span>
+            </div>
+          </article>
+
+          <article class="trainer-card reveal" style="--d:.08s">
+            <div class="media">
+              <img src="images/img-10.jpg" alt="Strength coach working an athlete on the platform" loading="lazy" decoding="async">
+              <span class="trainer-badge">Photo pending</span>
+            </div>
+            <div class="trainer-info">
+              <h3 class="trainer-name">Trainer Name</h3>
+              <span class="trainer-role">Strength &amp; Conditioning Coach</span>
+            </div>
+          </article>
+
+          <article class="trainer-card reveal" style="--d:.16s">
+            <div class="media">
+              <img src="images/img-3.jpg" alt="Conditioning coach leading a high-intensity session" loading="lazy" decoding="async">
+              <span class="trainer-badge">Photo pending</span>
+            </div>
+            <div class="trainer-info">
+              <h3 class="trainer-name">Trainer Name</h3>
+              <span class="trainer-role">Fitness Coach &middot; Ladies Sessions</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="trainers-note reveal">
+          Official trainer profiles to be added by the FITO team.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= JOURNEY ================= -->
+    <section class="journey section" id="journey" aria-label="Your fitness journey">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">The Journey</p>
+            <h2 class="display-lg reveal" style="--d:.06s">Start where you are.<br><span class="stroke-text">Build from there.</span></h2>
+          </div>
+        </div>
+
+        <ol class="journey-steps">
+          <li class="journey-step reveal">
+            <span class="journey-num">01</span>
+            <h3 class="journey-name">Start</h3>
+            <p class="journey-desc">Walk in, get oriented and set one clear goal for where you want to be.</p>
+          </li>
+          <li class="journey-step reveal" style="--d:.1s">
+            <span class="journey-num">02</span>
+            <h3 class="journey-name">Train</h3>
+            <p class="journey-desc">Follow a plan that fits your body, your schedule and your level.</p>
+          </li>
+          <li class="journey-step reveal" style="--d:.2s">
+            <span class="journey-num">03</span>
+            <h3 class="journey-name">Adapt</h3>
+            <p class="journey-desc">Progress is measured and adjusted — strength, stamina and habits build slowly, then fast.</p>
+          </li>
+          <li class="journey-step reveal" style="--d:.3s">
+            <span class="journey-num">04</span>
+            <h3 class="journey-name">Grow</h3>
+            <p class="journey-desc">Consistency compounds. You become the stronger, more capable version of yourself.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container container-narrow">
+        <p class="eyebrow reveal" style="text-align:center">Member Voices</p>
+        <h2 class="display-md reveal" style="--d:.06s;text-align:center">Trained. Trusted. Repeated.</h2>
+
+        <div class="carousel reveal" id="carousel" style="--d:.12s">
+          <div class="carousel-viewport">
+            <div class="carousel-track" id="carouselTrack">
+
+              <!-- EDIT: replace each slide with a verified Google review from FITO's listing -->
+              <figure class="slide">
+                <span class="slide-stars" aria-label="Rated 4.3 out of 5 on Google">
+                  <svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon star-dim"><use href="#i-star"/></svg>
+                </span>
+                <blockquote class="slide-quote">
+                  “Placeholder for a real FITO member review. Verified Google reviews
+                  will be added by the FITO team to replace this text.”
+                </blockquote>
+                <figcaption class="slide-author">
+                  <span class="slide-name">FITO Member</span>
+                  <span class="slide-meta">Google Review · Placeholder</span>
+                </figcaption>
+              </figure>
+
+              <figure class="slide">
+                <span class="slide-stars" aria-label="Rated 4.3 out of 5 on Google">
+                  <svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon star-dim"><use href="#i-star"/></svg>
+                </span>
+                <blockquote class="slide-quote">
+                  “Placeholder for a real FITO member review. Verified Google reviews
+                  will be added by the FITO team to replace this text.”
+                </blockquote>
+                <figcaption class="slide-author">
+                  <span class="slide-name">FITO Member</span>
+                  <span class="slide-meta">Google Review · Placeholder</span>
+                </figcaption>
+              </figure>
+
+              <figure class="slide">
+                <span class="slide-stars" aria-label="Rated 4.3 out of 5 on Google">
+                  <svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon star-dim"><use href="#i-star"/></svg>
+                </span>
+                <blockquote class="slide-quote">
+                  “Placeholder for a real FITO member review. Verified Google reviews
+                  will be added by the FITO team to replace this text.”
+                </blockquote>
+                <figcaption class="slide-author">
+                  <span class="slide-name">FITO Member</span>
+                  <span class="slide-meta">Google Review · Placeholder</span>
+                </figcaption>
+              </figure>
+
+            </div>
+          </div>
+
+          <div class="carousel-nav">
+            <button class="carousel-btn" id="carouselPrev" type="button" aria-label="Previous review">
+              <svg class="icon"><use href="#i-arrow-right"/></svg>
+            </button>
+            <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Choose review"></div>
+            <button class="carousel-btn" id="carouselNext" type="button" aria-label="Next review">
+              <svg class="icon"><use href="#i-arrow-right"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <p class="testimonials-note reveal">FITO is rated <strong>4.3★</strong> on Google across <strong>240+ reviews</strong>.</p>
+      </div>
+    </section>
+
+    <!-- ================= MEMBERSHIP ================= -->
+    <section class="membership section" id="membership">
+      <div class="container">
+        <div class="membership-block">
+          <div class="membership-bg">
+            <img src="images/img-8.jpg" alt="Athlete training under dramatic lighting in the gym" loading="lazy" decoding="async">
+          </div>
+
+          <div class="membership-content">
+            <p class="eyebrow reveal">Membership</p>
+            <h2 class="display-xl reveal" style="--d:.06s">Ready to join<br><span class="accent-text">the Fito Army?</span></h2>
+            <p class="lede reveal" style="--d:.12s">
+              Choose your goal. Build your routine. Start your journey.
+              Contact FITO for current membership plans and offers.
+            </p>
+
+            <div class="membership-cta reveal" style="--d:.18s">
+              <a class="btn btn-accent btn-lg" href="tel:+8801720505050">Get Membership Details <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+              <a class="btn btn-ghost btn-lg" href="tel:+8801720505050"><svg class="icon"><use href="#i-phone"/></svg> Call Fito</a>
+            </div>
+
+            <div class="payment-block reveal" style="--d:.24s">
+              <span class="payment-label">Easy to join</span>
+              <p class="payment-copy">Multiple convenient payment options available.</p>
+              <ul class="payment-list">
+                <li><svg class="icon"><use href="#i-check"/></svg> Cash</li>
+                <li><svg class="icon"><use href="#i-check"/></svg> Card</li>
+                <li><svg class="icon"><use href="#i-check"/></svg> bKash</li>
+                <li><svg class="icon"><use href="#i-check"/></svg> Nagad</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SPECIAL OFFER ================= -->
+    <section class="offer" id="offer" aria-label="Special admission offer">
+      <div class="container offer-inner">
+        <div class="offer-left reveal">
+          <span class="offer-tag">Special Admission Offer</span>
+          <span class="offer-ltd">Limited-time</span>
+        </div>
+        <div class="offer-mid reveal" style="--d:.08s">
+          <h2 class="display-md">Start strong, and start now.</h2>
+          <p class="offer-copy">Ask us about the current admission offer when you call.</p>
+        </div>
+        <div class="offer-cta reveal" style="--d:.16s">
+          <a class="btn btn-accent btn-lg" href="tel:+8801720505050">Claim Offer</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT / LOCATION ================= -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal">Visit Fito</p>
+            <h2 class="display-lg reveal" style="--d:.06s">Find Fito.</h2>
+          </div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <dl class="contact-rows">
+              <div class="contact-row reveal">
+                <dt><svg class="icon"><use href="#i-pin"/></svg> Address</dt>
+                <dd>
+                  406/B Malibagh Chowdhury Para Road<br>
+                  Khilgaon Chowdhury Para (3rd Floor) &middot; Opposite Bill Gates School<br>
+                  Dhaka, Bangladesh
+                </dd>
+              </div>
+              <div class="contact-row reveal" style="--d:.08s">
+                <dt><svg class="icon"><use href="#i-phone"/></svg> Phone</dt>
+                <dd><a class="contact-link" href="tel:+8801720505050">01720-505050</a></dd>
+              </div>
+              <div class="contact-row reveal" style="--d:.16s">
+                <dt><svg class="icon"><use href="#i-clock"/></svg> Opening Hours</dt>
+                <dd class="hours-dd">
+                  <table class="hours-table">
+                    <tbody>
+                      <tr class="hours-row" data-days="sat, sun, mon, tue, wed, thu">
+                        <th>Sat &ndash; Thu</th>
+                        <td>7:00 AM &ndash; 11:00 PM</td>
+                      </tr>
+                      <tr class="hours-row" data-days="fri">
+                        <th>Friday</th>
+                        <td>4:00 PM &ndash; 9:00 PM</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <span class="hours-status" id="hoursStatus" hidden>Checking&hellip;</span>
+                </dd>
+              </div>
+            </dl>
+
+            <div class="contact-actions reveal" style="--d:.2s">
+              <a class="btn btn-accent btn-lg" href="tel:+8801720505050"><svg class="icon"><use href="#i-phone"/></svg> Call Now</a>
+              <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&amp;query=FITO+Fitness+%26+Gym+Malibagh+Chowdhury+Para+Dhaka" target="_blank" rel="noopener">Get Directions <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+            </div>
+          </div>
+
+          <div class="contact-map reveal" style="--d:.12s">
+            <div class="map-frame">
+              <iframe
+                src="https://maps.google.com/maps?q=FITO%20Fitness%20%26%20Gym%20Malibagh%20Chowdhury%20Para%20Dhaka&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                title="Map showing FITO Fitness & Gym, Khilgaon Chowdhury Para, Dhaka"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+            </div>
+            <p class="map-note">Near KFC &amp; Dilli Darbar Building &middot; Opposite Bill Gates School</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FINAL CTA ================= -->
+    <section class="final-cta" aria-label="Call to action">
+      <div class="container final-inner">
+        <p class="eyebrow reveal">One step away</p>
+        <h2 class="display-xl reveal" style="--d:.06s">Your strongest years<br>start <span class="accent-text">this week.</span></h2>
+        <p class="lede reveal" style="--d:.12s">Call FITO today — walk in, train, and let the work speak.</p>
+        <a class="btn btn-accent btn-lg reveal" style="--d:.18s" href="tel:+8801720505050">Call <span class="btn-phone">01720-505050</span> <svg class="icon"><use href="#i-arrow-up-right"/></svg></a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <a class="brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">F</span>
+        <span class="brand-text">
+          <span class="brand-name">FITO</span>
+          <span class="brand-sub">FITNESS &amp; GYM</span>
+        </span>
+      </a>
+      <p class="footer-tag">Strength &middot; Discipline &middot; Progress</p>
+    </div>
+
+    <div class="container footer-mid">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#membership">Membership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-meta">
+        <p><svg class="icon"><use href="#i-phone"/></svg> <a href="tel:+8801720505050">01720-505050</a></p>
+        <p><svg class="icon"><use href="#i-pin"/></svg> Malibagh Chowdhury Para Road, Khilgaon, Dhaka</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> FITO Fitness &amp; Gym. All rights reserved.</p>
+      <p>406/B Malibagh Chowdhury Para Road &middot; Dhaka, Bangladesh</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
